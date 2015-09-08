@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="WCLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=db9b89b3934f3528, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\WCLib.dll</HintPath>
+      <HintPath>bin\WCLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -55,14 +55,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\WCLib.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="WcDayCtrl.resx">
       <DependentUpon>WcDayCtrl.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\WCLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
