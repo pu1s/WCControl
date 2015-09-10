@@ -37,6 +37,7 @@
 #define TEST
 using System;
 using System.ComponentModel;
+using System.Drawing;
 using System.Windows.Forms;
 using AGSoft.WCLib;
 using WCControl;
@@ -112,39 +113,37 @@ namespace AGSoft
         {
             InitializeComponent();
 #if TEST
- WcDay = new WcDay(DateTime.Now);
+            _wcDay = new WcDay(DateTime.Now);
 #endif
-
         }
 
         public WcDayCtrl(DateTime date) : this()
         {
-            WcDay = new WcDay(date);
+            _wcDay = new WcDay(date);
         }
 
         public WcDayCtrl(DateTime date, WсDayAttr dayAttr, string comment) : this()
         {
-            WcDay = new WcDay(date);
-            WcDay.UpdateWcDayAttr(dayAttr);
-            WcDay.UpdateWcDayComment(comment);
+            _wcDay = new WcDay(date);
+            _wcDay.UpdateWcDayAttr(dayAttr);
+            _wcDay.UpdateWcDayComment(comment);
         }
 
         #endregion
 
         private void InitializeComponent()
         {
-            this.SuspendLayout();
+            SuspendLayout();
             // 
             // WcDayCtrl
             // 
-            this.MaximumSize = new System.Drawing.Size(20, 20);
-            this.MinimumSize = new System.Drawing.Size(20, 20);
-            this.Name = "WcDayCtrl";
-            this.Size = new System.Drawing.Size(20, 20);
-            this.ResumeLayout(false);
-
+            MaximumSize = new Size(20, 20);
+            MinimumSize = new Size(20, 20);
+            Name = "WcDayCtrl";
+            Size = new Size(20, 20);
+            ResumeLayout(false);
         }
 
-        #endregion  
+        #endregion
     }
 }
