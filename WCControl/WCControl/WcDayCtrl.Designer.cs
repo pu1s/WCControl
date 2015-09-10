@@ -1,15 +1,11 @@
-﻿using System.ComponentModel;
-using System.Drawing;
-using System.Windows.Forms;
-
-namespace AGSoft
+﻿namespace WCControl
 {
-    public partial class WcDayCtrl
+    partial class WcDayCtrl
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
         /// </summary>
-        private IContainer components = null;
+        private System.ComponentModel.IContainer components = null;
 
         /// <summary> 
         /// Освободить все используемые ресурсы.
@@ -32,17 +28,14 @@ namespace AGSoft
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this._wcDayToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // WcDayCtrl
             // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.DoubleBuffered = true;
-            this.MaximumSize = new System.Drawing.Size(20, 20);
-            this.MinimumSize = new System.Drawing.Size(20, 20);
             this.Name = "WcDayCtrl";
-            this.Size = new System.Drawing.Size(20, 20);
             this.ResumeLayout(false);
 
         }
