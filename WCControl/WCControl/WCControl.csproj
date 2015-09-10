@@ -7,7 +7,7 @@
     <ProjectGuid>{ED05D636-538E-4DB6-94CD-7F2BE9AC4070}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WCControl</RootNamespace>
+    <RootNamespace>AGSoft</RootNamespace>
     <AssemblyName>WCControl</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -51,15 +51,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WcDayCtrl.cs">
+    <Compile Include="SRC\IWcDayPaint.cs" />
+    <Compile Include="SRC\WcDayChangeEventArgs.cs" />
+    <Compile Include="SRC\WcDayCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="WcDayCtrl.Designer.cs">
+    <Compile Include="SRC\WcDayCtrl.Designer.cs">
       <DependentUpon>WcDayCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRC\WcDayCtrl.Fields.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SRC\WcDayCtrl.Paints.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SRC\WcDayCtrl.Prop.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="WcDayCtrl.resx">
+    <EmbeddedResource Include="SRC\WcDayCtrl.resx">
       <DependentUpon>WcDayCtrl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
