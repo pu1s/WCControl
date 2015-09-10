@@ -43,14 +43,14 @@ namespace WCControl
     {
         // Свойство, определяющее анимацию при наведении указателя мыши
         [Browsable(true), Category("Внешний вид")]
-        public bool IsAnimated
+        public bool UseAnimation
         {
-            get { return _isAnimated; }
+            get { return _useAnimation; }
 
             set
             {
-                if (value == _isAnimated) return;
-                _isAnimated = value;
+                if (value == _useAnimation) return;
+                _useAnimation = value;
                 Invalidate();
             }
         }
@@ -59,14 +59,14 @@ namespace WCControl
         public bool IsMouseEnter { get; set; }
         // Свойство, определяющее включение подсказки в виде всплывающего окна
         [Browsable(true), Category("Внешний вид"), Description("Всплывающая подсказка"), DefaultValue(true)]
-        public bool IsHint
+        public bool UseHint
         {
-            get { return _isHint; }
+            get { return _useHint; }
             set
             {
-                if(value==_isHint) return;
-                _isHint = value;
-                _wcDayToolTip.Active = _isHint;
+                if(value==_useHint) return;
+                _useHint = value;
+                _wcDayToolTip.Active = _useHint;
             }
         }
         // Свойство, определяющее выбран ли компонент

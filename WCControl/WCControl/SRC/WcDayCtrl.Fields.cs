@@ -48,9 +48,9 @@ namespace WCControl
         private Color _shortDayFontColor;
         private Color _enterMouseBgColor; 
         /* переменные */
-        private bool _isAnimated;
+        private bool _useAnimation;
         private bool _isSelected;
-        private bool _isHint;
+        private bool _useHint;
         /* Подсказка */
         private ToolTip _wcDayToolTip;
     }
