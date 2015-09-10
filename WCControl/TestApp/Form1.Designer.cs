@@ -1,4 +1,6 @@
-﻿namespace TestApp
+﻿using AGSoft;
+
+namespace TestApp
 {
     partial class Form1
     {
@@ -28,8 +30,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.wcDayCtrl1 = new WCControl.WcDayCtrl();
-            this.wcDayCtrl2 = new WCControl.WcDayCtrl();
+            this.wcDayCtrl1 = new WcDayCtrl();
+            this.wcDayCtrl2 = new WcDayCtrl();
             this.SuspendLayout();
             // 
             // wcDayCtrl1
@@ -83,8 +85,8 @@
 
         #endregion
 
-        private WCControl.WcDayCtrl wcDayCtrl1;
-        private WCControl.WcDayCtrl wcDayCtrl2;
+        private WcDayCtrl wcDayCtrl1;
+        private WcDayCtrl wcDayCtrl2;
     }
 }
 

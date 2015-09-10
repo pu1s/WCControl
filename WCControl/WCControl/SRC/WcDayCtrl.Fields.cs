@@ -37,7 +37,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace WCControl
+namespace AGSoft
 {
     public partial class WcDayCtrl
     {

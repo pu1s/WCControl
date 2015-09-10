@@ -38,10 +38,10 @@
 using System;
 using System.ComponentModel;
 using System.Windows.Forms;
-using AGSoft;
 using AGSoft.WCLib;
+using WCControl;
 
-namespace WCControl
+namespace AGSoft
 {
     [ToolboxItem(true)]
     public partial class WcDayCtrl : UserControl

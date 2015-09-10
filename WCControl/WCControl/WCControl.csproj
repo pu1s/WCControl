@@ -7,7 +7,7 @@
     <ProjectGuid>{ED05D636-538E-4DB6-94CD-7F2BE9AC4070}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WCControl</RootNamespace>
+    <RootNamespace>AGSoft</RootNamespace>
     <AssemblyName>WCControl</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
