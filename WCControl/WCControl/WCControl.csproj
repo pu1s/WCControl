@@ -51,19 +51,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WcDayCtrl.cs">
+    <Compile Include="SRC\IWcDayPaint.cs" />
+    <Compile Include="SRC\WcDayChangeEventArgs.cs" />
+    <Compile Include="SRC\WcDayCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="WcDayCtrl.Designer.cs">
-      <DependentUpon>WcDayCtrl.cs</DependentUpon>
+    <Compile Include="SRC\WcDayCtrl.Fields.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SRC\WcDayCtrl.Paint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SRC\WcDayCtrl.Prop.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="WcDayCtrl.resx">
+    <EmbeddedResource Include="SRC\WcDayCtrl.resx">
       <DependentUpon>WcDayCtrl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="WCLib.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
