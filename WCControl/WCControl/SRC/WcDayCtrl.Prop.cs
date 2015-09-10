@@ -41,6 +41,8 @@ namespace AGSoft
 {
     public partial class WcDayCtrl
     {
+        /* Свойства, определяющие внешний вид и поведение */
+
         // Свойство, определяющее анимацию при наведении указателя мыши
         [Browsable(true), Category("Внешний вид")]
         public bool UseAnimation
