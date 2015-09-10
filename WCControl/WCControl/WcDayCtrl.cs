@@ -11,7 +11,7 @@ using AGSoft.WCLib;
 
 namespace WCControl
 {
-    [ToolboxItem(typeof(WcDayCtrl)), ToolboxBitmap(typeof(Button), "WCDayControl")]
+    [ToolboxItem(true), ToolboxBitmap(typeof (WcDayCtrl))]
     
     public partial class WcDayCtrl : UserControl
     {
