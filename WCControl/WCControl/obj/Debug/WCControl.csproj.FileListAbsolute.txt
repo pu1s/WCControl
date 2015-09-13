@@ -1,0 +1,8 @@
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\bin\Debug\WCLib.dll
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\bin\Debug\WCControl.dll
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\bin\Debug\WCControl.pdb
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\obj\Debug\WCControl.dll
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\obj\Debug\WCControl.pdb
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\obj\Debug\WCControl.csproj.GenerateResource.Cache
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\obj\Debug\WCControl.csprojResolveAssemblyReference.cache
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\WCControl\obj\Debug\AGSoft.WcDayCtrl.resources

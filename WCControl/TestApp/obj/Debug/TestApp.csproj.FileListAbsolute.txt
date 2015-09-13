@@ -1,0 +1,12 @@
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\obj\Debug\TestApp.Form1.resources
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\obj\Debug\TestApp.csproj.GenerateResource.Cache
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\bin\Debug\WCLib.dll
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\bin\Debug\TestApp.exe
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\bin\Debug\TestApp.pdb
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\bin\Debug\WCControl.dll
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\bin\Debug\WCControl.pdb
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\obj\Debug\TestApp.exe
+C:\Users\extensa\Documents\GitHub\WCControl\WCControl\TestApp\obj\Debug\TestApp.pdb
